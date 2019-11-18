@@ -1,3 +1,7 @@
+
+# 콘솔 사용 가이드
+
+
 ## GPU Instance 활성화
 
 GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성요청을 해야 합니다.
@@ -98,7 +102,7 @@ SSH 연결에 대한 자세한 가이드는 [SSH 연결 가이드](https://docs.
 
 
 
-## GPU 정보 확인 방법
+## GPU 정보 확인
 
 ```
 # GPU 정보 확인
@@ -108,10 +112,10 @@ shell > nvidia-smi
 ![GPU_assign_1.png](http://static.toastoven.net/prod_gpu/GPU_assign_1.png)
 
 
-* GPU 0 할당 : 1개
-* Name : Tesla T4
-* Persistence_mode : On
-* Temp : 44C
-* Pwr Usage/Capacity : 28W / 70W
-* Memory-Usage : 15079MiB
-* GPU-Util : 0%
+* GPU : 0 (GPU 1개 할당)
+* Name : Tesla V100-SXM2 (GPU 모델)
+* Persistence_mode : On (Persistence mode enable 상태)
+* Temp : 30C (현재 GPU 온도)
+* Pwr Usage/Capacity : 36W / 300W (현재 전력사용량 / 최대 전력사용량)
+* Memory-Usage : 32480MiB (GPU 최대 할당 메모리)
+* GPU-Util : 0% (GPU Util 사용률)
