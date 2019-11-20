@@ -1,6 +1,5 @@
 
 
-
 ## GPU Instance 활성화
 
 GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성요청을 해야 합니다.
@@ -135,4 +134,3 @@ shell > nvidia-smi
 ## 일반 인스턴스와 GPU 인스턴스와 차이점
 
 * GPU 인스턴스는 사양 변경이 안됩니다.
-* GPU 인스턴스는 이미지 생성이 안됩니다.
