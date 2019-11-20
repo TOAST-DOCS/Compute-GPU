@@ -5,11 +5,11 @@
 
 GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성요청을 해야 합니다.
 
-### 서비스 선택 > GPU Instance 를 클릭합니다. 
+**서비스 선택 > GPU Instance 를 클릭합니다.**
 
 ![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_1_modify.png)  
 
-### 서비스 활성화 확인버튼을 클릭합니다.
+**서비스 활성화 확인버튼을 클릭합니다.**
 
 ![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_2_modify.png)
 
@@ -17,17 +17,17 @@ GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성�
 
 ## GPU Instance 생성 요청
 
-### Compute > GPU Instance 으로 이동한 뒤, 신청(1:1문의) 버튼을 클릭합니다.
+**Compute > GPU Instance 으로 이동한 뒤, 신청(1:1문의) 버튼을 클릭합니다.**
 
 ![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_1_modify.png)
 
 
-### 문의 제목과 문의 내용을 작성한후 확인 버튼을 클릭합니다.
+**문의 제목과 문의 내용을 작성한후 확인 버튼을 클릭합니다.**
 
 ![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_2_modify.png)
 
 
-### GPU Instance 생성요청시 작성할 내용
+**GPU Instance 생성요청시 작성할 내용**
 
 ```
 GPU 사용을 위한 관련정보를 입력합니다.
@@ -93,7 +93,7 @@ GPU  인스턴스 사용을 위한 정보입니다.
 ![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/GPU_Instance_subnetID_1.png)
 
 
-### GPU 인스턴스 사용을 위한 정보
+**GPU 인스턴스 사용을 위한 정보**
 
 * 서비스는 바로 이용할 수 없고 사전 상담 후에 사용할 수 있습니다. 사전 상담은 2~3일 정도 걸릴 수 있습니다.
 
