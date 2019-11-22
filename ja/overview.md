@@ -1,22 +1,22 @@
+﻿## Compute > GPU Instance > 概要
 
-## Compute > GPU Instance > 개요
+GPUインスタンスはインスタンスにGPU(Graphics Processing Unit)が追加構成された仮想サーバーです。
+科学的な発見からディープラーニングに至るまで、多様な分野で使用します。
 
-GPU 인스턴스는 인스턴스에 GPU(Graphics Processing Unit)가 추가 구성된 가상서버입니다.
-과학적 발견부터 딥러닝에 이르는 다양한 분야에서 사용합니다.
+GPU数1個または2個を選択してGPUを使用できます。
 
-GPU 수량 1개 또는 2개를 선택하여 GPU를 사용할 수 있습니다.
+## 機能
 
-## 기능
+* AIトレーニング
+* AI推論
+* 高性能コンピューティング
 
-* AI 트레이닝
-* AI 추론
-* 고성능 컴퓨팅
+## 提供GPUの仕様
 
-## 제공 GPU 제원
+### NVLINK用NVIDIA TESLA V100
 
-### NVLINK용 NVIDIA TESLA V100
+ディープラーニングのための究極の性能
 
-딥 러닝을 위한 궁극의 성능
 
 | Tesla V100 for NVLink |  |
 | --- | :---: |
@@ -35,3 +35,4 @@ GPU 수량 1개 또는 2개를 선택하여 GPU를 사용할 수 있습니다.
 | Max Power Comsumption | 300 WATTS |
 | Thermal Solution | Passive |
 | Compute APIs | CUDA, DirectCompute, OpenCL ™ ,OpenACC |
+
