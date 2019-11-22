@@ -6,11 +6,11 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 
 **サービス選択 > GPU Instanceをクリックします。**
 
-![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_1_modify.png)  
+![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_1_modify.png)  
 
 **サービス有効化確認ボタンをクリックします。**
 
-![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_2_modify.png)
+![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_2_modify.png)
 
 
 
@@ -18,12 +18,12 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 
 **Compute > GPU Instanceに移動し、申請(1：1お問い合わせ)ボタンをクリックします。**
 
-![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_1_modify.png)
+![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_1_modify.png)
 
 
 **お問い合わせのタイトルと内容を入力し、確認ボタンをクリックします。**
 
-![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_2_modify.png)
+![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_2_modify.png)
 
 
 **GPU Instance作成をリクエストする時に入力する内容**
@@ -89,7 +89,7 @@ GPUインスタンスを使用するための情報です。
 * インスタンス作成の詳細は、[Instance概要](http://docs.toast.com/ko/Compute/Instance/ko/overview/)を参照してください。
 
 
-![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/GPU_Instance_subnetID_1.png)
+![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/en_GPU_Instance_subnetID_1.png)
 
 
 **GPUインスタンスを使用するための情報**
