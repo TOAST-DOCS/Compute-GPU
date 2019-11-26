@@ -1,4 +1,4 @@
-
+## Compute > GPU Instance > Console Guide
 
 ## GPU Instance 활성화
 
