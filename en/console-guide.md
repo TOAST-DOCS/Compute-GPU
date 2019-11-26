@@ -1,4 +1,4 @@
-
+## Compute > GPU Instance > Console Guide
 
 ## GPU Instance 활성화
 
@@ -6,11 +6,11 @@ GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성�
 
 **서비스 선택 > GPU Instance 를 클릭합니다.**
 
-![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_1_modify.png)  
+![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_1_modify.png)  
 
 **서비스 활성화 확인버튼을 클릭합니다.**
 
-![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_2_modify.png)
+![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_2_modify.png)
 
 
 
@@ -18,12 +18,12 @@ GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성�
 
 **Compute > GPU Instance 으로 이동한 뒤, 신청(1:1문의) 버튼을 클릭합니다.**
 
-![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_1_modify.png)
+![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_1_modify.png)
 
 
 **문의 제목과 문의 내용을 작성한후 확인 버튼을 클릭합니다.**
 
-![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_2_modify.png)
+![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_2_modify.png)
 
 
 **GPU Instance 생성요청시 작성할 내용**
@@ -89,7 +89,7 @@ GPU  인스턴스 사용을 위한 정보입니다.
 * 인스턴스 생성에 대한 자세한 내용은 [Instance 개요](http://docs.toast.com/ko/Compute/Instance/ko/overview/)를 참고하시기 바랍니다.
 
 
-![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/GPU_Instance_subnetID_1.png)
+![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/en_GPU_Instance_subnetID_1.png)
 
 
 **GPU 인스턴스 사용을 위한 정보**
