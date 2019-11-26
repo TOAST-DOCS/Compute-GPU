@@ -1,9 +1,5 @@
 ## Compute > GPU Instance > 콘솔 사용 가이드
 
-<<<<<<< HEAD
-
-=======
->>>>>>> alpha
 ## GPU Instance 활성화
 
 GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성요청을 해야 합니다.
