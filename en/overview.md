@@ -1,6 +1,10 @@
-
 ## Compute > GPU Instance > 개요
 
+<<<<<<< HEAD
+## Compute > GPU Instance > 개요
+
+=======
+>>>>>>> alpha
 GPU 인스턴스는 인스턴스에 GPU(Graphics Processing Unit)가 추가 구성된 가상서버입니다.
 과학적 발견부터 딥러닝에 이르는 다양한 분야에서 사용합니다.
 
