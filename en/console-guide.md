@@ -6,11 +6,11 @@ To enable a GPU instance, you must request for creating one from Compute > GPU I
 
 **Click Select Service > GPU Instance.**
 
-![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_1_modify.png)  
+![en_GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_1_modify.png)  
 
 **Click OK for Enable Service.**
 
-![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_2_modify.png)
+![en_GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_2_modify.png)
 
 
 
@@ -18,12 +18,12 @@ To enable a GPU instance, you must request for creating one from Compute > GPU I
 
 **Go to Compute > GPU Instance, and click Apply (1:1 Inquiries).**
 
-![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_1_modify.png)
+![en_GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_1_modify.png)
 
 
 **Fill out the title and content of your inquiry and click OK.**
 
-![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_2_modify.png)
+![en_GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_2_modify.png)
 
 
 **Requirements for the Request for Creating GPU Instances **
@@ -89,7 +89,7 @@ To enable GPU Instances, refer to the following information.
 * For more details regarding creating instances, see [Instance Overview](http://docs.toast.com/ko/Compute/Instance/ko/overview/).
 
 
-![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/GPU_Instance_subnetID_1.png)
+![en_GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/en_GPU_Instance_subnetID_1.png)
 
 
 **Information for Enabling GPU Instances **
