@@ -1,4 +1,4 @@
-﻿## Compute > GPU Instance > 概要
+## Compute > GPU Instance > 概要
 
 GPUインスタンスはインスタンスにGPU(Graphics Processing Unit)が追加構成された仮想サーバーです。
 科学的な発見からディープラーニングに至るまで、多様な分野で使用します。
