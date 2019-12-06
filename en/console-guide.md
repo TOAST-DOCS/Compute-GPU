@@ -1,4 +1,4 @@
-
+## Compute > GPU Instance > Console User Guide
 
 ## Enabling GPU Instances  
 
