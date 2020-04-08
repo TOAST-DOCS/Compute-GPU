@@ -1,136 +1,136 @@
 ## Compute > GPU Instance > Console Guide
 
-## GPU Instance 활성화
+## 激活GPU Instance
 
-GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성요청을 해야 합니다.
+为使用GPU Instance，应先申请创建Compute > GPU Instance。
 
-**서비스 선택 > GPU Instance 를 클릭합니다.**
+**选择服务 > 单击GPU Instance。**
 
 ![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_1_modify.png)  
 
-**서비스 활성화 확인버튼을 클릭합니다.**
+**单击确定激活服务按钮。**
 
 ![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_2_modify.png)
 
 
 
-## GPU Instance 생성 요청
+## 申请创建GPU Instance
 
-**Compute > GPU Instance 으로 이동한 뒤, 신청(1:1문의) 버튼을 클릭합니다.**
+**移动至Compute > GPU Instance后，单击申请（1:1咨询）按钮。**
 
 ![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_1_modify.png)
 
 
-**문의 제목과 문의 내용을 작성한후 확인 버튼을 클릭합니다.**
+**填写咨询标题和咨询内容后单击确定按钮。**
 
 ![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_2_modify.png)
 
 
-**GPU Instance 생성요청시 작성할 내용**
+**申请创建GPU Instance时填写的内容**
 
 ```
-GPU 사용을 위한 관련정보를 입력합니다.
+输入使用GPU的相关信息。
 =============================================================================
-* 고객 TOAST 아이디 email (ex. email@toast.com) : 
+* 客户TOAST ID email (ex. email@toast.com) :
 
-* 고객 프로젝트 ID (ex. ae1bfd024d8841a295988638d90979a4) : 
-   Network > VPC > 서브넷 > 프로젝트 ID 에서 확인가능합니다.
+* 客户项目ID (ex. ae1bfd024d8841a295988638d90979a4) :
+   可在Network > VPC > 子网 > 项目ID中确认。
 
-* 가용성 영역 (ex. pub-a) :
-  pub-a, pub-b 중 선택가능합니다.
+* 可用性区域(ex. pub-a) :
+  可在pub-a、pub-b中选择。
 
-* 설치할 인스턴스의 이름 (ex. gpu-instance-001) :
-   20자 이내로 작성해주세요. 영문자와 숫자, '-', '.'만 입력 가능합니다.
+* 要设置的实例名(ex. gpu-instance-001) :
+   请输入20个以内的字符。仅可输入英文字母、数字和“-”、“.”。
 
-* 인스턴스 타입과 수량 (ex. g2.c8m96 1대) :
-   g2.c8m96 : 8 Core, Memory 96 GB + GPU 1개
-   g2.c16m192 : 16 Core, Memory 192 GB + GPU 2개
+* 实例类型和数量（ex.g2.c8m96 1台）：
+   g2.c8m96 : 8 Core, Memory 96 GB + GPU 1个
+   g2.c16m192 : 16 Core, Memory 192 GB + GPU 2个
 
-* 설치할 인스턴스에서 사용할 키페어 이름 (ex. gpu_connect_key) :
-   원하는 키 페어가 없는 경우 생성해 주세요.
+* 要在要设置的实例中使用的密钥对名(ex. gpu_connect_key) :
+   若无所需的密钥对，请创建。
 
-* 인스턴스의 블럭스토리지 타입과 크기(GB) (ex. HDD 100 GB) :
-   블럭스토리지 타입 : SSD와 HDD중 선택가능합니다.
-   블럭스토리지 크기는 20 GB ~ 1000GB 로 생성가능합니다.
+* 实例的块存储类型和大小(GB) (ex. HDD 100 GB) :
+   块存储类型：可在SSD与HDD中选择。
+   块存储大小可创建为20 GB ~ 1000GB。
 
-* 연결되어야할 Subnet 정보 (ex. Default Network / 7245176d-1402-47fa-87a6-2c2eafe8807b) 
-  네트워크 이름 / ID / 복수개 가능
+* 应连接的Subnet信息(ex. Default Network / 7245176d-1402-47fa-87a6-2c2eafe8807b)
+  网络名 / ID / 可多个
 
 =============================================================================
 
 
-GPU  인스턴스 사용을 위한 정보입니다.
+用于使用GPU实例的信息。
 =============================================================================
-* 서비스는 바로 이용할 수 없고 사전 상담 후에 사용할 수 있습니다. 사전 상담은 2~3일 정도 걸릴 수 있습니다.
+* 服务无法直接使用，提前咨询后可使用。提前咨询可能需要2~3天左右。
 
-* GPU 인스턴스는 Ubuntu 18.04로 설치됩니다.
+* GPU实例以Ubuntu 18.04设置。
 
-* GPU 인스턴스 IP는 자동 할당됩니다.
+* GPU实例IP自动分配。
 
-* GPU 인스턴스가 생성이 완료되면 메일로 안내가 됩니다.
+* GPU实例创建完成后，将通过邮件通知。
 
 =============================================================================
 ```
 
-* 고객 TOAST 아이디 email : GPU 인스턴스 생성요청 할 아이디정보를 입력합니다.
-* 고객 프로젝트 ID : 아래 그림처럼 **Network > VPC > 서브넷 > 프로젝트 ID** 에서 확인가능합니다.
-* 가용성 영역 : pub-a, pub-b 중 선택가능합니다.
-* 설치할 인스턴스의 이름 : 20자 이내로 작성해주세요. 영문자와 숫자, '-', '.'만 입력 가능합니다.
-* GPU 인스턴스 타입과 인스턴스 수
+* 客户TOAST ID email：输入要申请创建GPU实例的ID信息。
+* 客户项目ID：如下图所示可在**Network > VPC > 子网 > 项目ID**中确认。
+* 可用性区域：可在pub-a、pub-b中选择。
+* 要设置的实例名：请输入20个以内的字符。仅可输入英文字母、数字和“-”、“.”。
+* GPU实例类型与实例数
 
-| 인스턴스 타입 | GPU 수 | Core 수 | 메모리 용량 (GB) |
+| 实例类型 | GPU数 | Core数 | 内存容量(GB) |
 | --- | --- | --- | --- |
 | g2.c8m96 | 1 | 8 | 96 |
 | g2.c16m192 | 2 | 16 | 192 |
 
-* 설치할 인스턴스에서 사용할 키페어 이름 : 원하는 키 페어가 없는 경우 생성해 주세요.
-* 인스턴스의 블럭스토리지 타입과 크기(GB) : 블럭스토리지 타입은 HDD와 SSD 중 선택가능하며 블럭스토리지 크기는 20 GB ~ 1000GB 로 생성가능합니다.
-* 연결되어야할 Subnet 정보 : 아래그림처럼 **Network > VPC > 서브넷 > 서브넷 이름, CIDR** 에서 확인가능합니다.
-* 인스턴스 생성에 대한 자세한 내용은 [Instance 개요](http://docs.toast.com/ko/Compute/Instance/ko/overview/)를 참고하시기 바랍니다.
+* 要在要设置的实例中使用的密钥对名：无所需密钥对时请创建。
+* 实例的块存储类型和大小(GB)：块存储类型可在HDD与SSD中选择，块存储大小可创建为20 GB ~ 1000GB。
+* 应连接的Subnet信息：如下图所示可在**Network > VPC > 子网 > 子网名、CIDR**中确认。
+* 创建实例相关详细内容请参考[Instance概要](http://docs.toast.com/ko/Compute/Instance/ko/overview/)。
 
 
 ![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/GPU_Instance_subnetID_1.png)
 
 
-**GPU 인스턴스 사용을 위한 정보**
+**用于使用GPU实例的信息**
 
-* 서비스는 바로 이용할 수 없고 사전 상담 후에 사용할 수 있습니다. 사전 상담은 2~3일 정도 걸릴 수 있습니다.
+* 服务无法直接使用，提前咨询后可使用。提前咨询可能需要2~3天左右。
 
-* GPU 인스턴스는 Ubuntu 18.04로 설치됩니다.
+* GPU实例以Ubuntu 18.04设置。
 
-* GPU 인스턴스 IP는 자동 할당됩니다.
+* GPU实例IP自动分配。
 
-* GPU 인스턴스가 생성이 완료되면 메일로 안내가 됩니다.
-
-
-## GPU Instance 접속
-
-인스턴스 생성 완료 후 SSH를 사용하여 인스턴스에 접근합니다.
-인스턴스에 Floating IP가 연결되어있어야 하며 보안그룹에서 TCP 포트 22(SSH)가 허용되어야 합니다.
-
-SSH 클라이언트와 설정한 키페어를 이용해 인스턴스에 접속 합니다. 
-SSH 연결에 대한 자세한 가이드는 [SSH 연결 가이드](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux)를 참고하시기 바랍니다.
+* GPU实例创建完成后，将通过邮件通知。
 
 
+## 访问GPU Instance
 
-## GPU 정보 확인
+实例创建完成后，使用SSH访问实例。
+Floating IP应连接至实例，安全组中应允许使用TCP端口22(SSH)。
+
+利用SSH客户与设置的密钥对访问实例。
+连接SSH相关详细指南请参考[SSH连接指南](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux)。
+
+
+
+## 确认GPU信息
 
 ```
-# GPU 정보 확인
+# 确认GPU信息
 shell > nvidia-smi
 ```
 
 ![GPU_assign_1.png](http://static.toastoven.net/prod_gpu/GPU_assign_1.png)
 
 
-* GPU : 0 (GPU 1개 할당)
-* Name : Tesla V100-SXM2 (GPU 모델)
-* Persistence_mode : On (Persistence mode enable 상태)
-* Temp : 30C (현재 GPU 온도)
-* Pwr Usage/Capacity : 36W / 300W (현재 전력사용량 / 최대 전력사용량)
-* Memory-Usage : 32480MiB (GPU 최대 할당 메모리)
-* GPU-Util : 0% (GPU Util 사용률)
+* GPU：0（分配1个GPU）
+* Name：Tesla V100-SXM2（GPU型号）
+* Persistence_mode：On（Persistence mode enable状态）
+* Temp：30C（当前GPU温度）
+* Pwr Usage/Capacity：36W / 300W（当前耗电量 / 最大耗电量）
+* Memory-Usage：32480MiB（GPU最大分配内存）
+* GPU-Util：0%（GPU Util使用率）
 
-## 일반 인스턴스와 GPU 인스턴스와 차이점
+## 一般实例与GPU实例的区别
 
-* GPU 인스턴스는 사양 변경이 안됩니다.
+* GPU实例规格无法更改。
