@@ -1,136 +1,136 @@
-## Compute > GPU Instance > Console Guide
+## Compute > GPU Instance > Console User Guide
 
-## GPU Instance 활성화
+## Enabling GPU Instances  
 
-GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성요청을 해야 합니다.
+To enable a GPU instance, you must request for creating one from Compute > GPU Instance.
 
-**서비스 선택 > GPU Instance 를 클릭합니다.**
+**Click Select Service > GPU Instance.**
 
-![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_1_modify.png)  
+![en_GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_1_modify.png)  
 
-**서비스 활성화 확인버튼을 클릭합니다.**
+**Click OK for Enable Service.**
 
-![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_2_modify.png)
-
-
-
-## GPU Instance 생성 요청
-
-**Compute > GPU Instance 으로 이동한 뒤, 신청(1:1문의) 버튼을 클릭합니다.**
-
-![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_1_modify.png)
+![en_GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_2_modify.png)
 
 
-**문의 제목과 문의 내용을 작성한후 확인 버튼을 클릭합니다.**
 
-![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_2_modify.png)
+## Request for Creating GPU Instances 
+
+**Go to Compute > GPU Instance, and click Apply (1:1 Inquiries).**
+
+![en_GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_1_modify.png)
 
 
-**GPU Instance 생성요청시 작성할 내용**
+**Fill out the title and content of your inquiry and click OK.**
+
+![en_GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_2_modify.png)
+
+
+**Requirements for the Request for Creating GPU Instances **
 
 ```
-GPU 사용을 위한 관련정보를 입력합니다.
+Enter relevant information to enable GPU.  
 =============================================================================
-* 고객 TOAST 아이디 email (ex. email@toast.com) : 
+* User's TOAST ID Email (e.g. email@toast.com):
 
-* 고객 프로젝트 ID (ex. ae1bfd024d8841a295988638d90979a4) : 
-   Network > VPC > 서브넷 > 프로젝트 ID 에서 확인가능합니다.
+* User's Project ID (e.g. ae1bfd024d8841a295988638d90979a4):
+   Available at Network > VPC > Subnet > Project ID.
 
-* 가용성 영역 (ex. pub-a) :
-  pub-a, pub-b 중 선택가능합니다.
+* Availability Area (e.g. pub-a):
+  Select either pub-a or pub-b.
 
-* 설치할 인스턴스의 이름 (ex. gpu-instance-001) :
-   20자 이내로 작성해주세요. 영문자와 숫자, '-', '.'만 입력 가능합니다.
+* Name of Instance to Install (e.g. gpu-instance-001):
+  Enter less than 20 characters: only English, numbers, '-', and '.' are available.
 
-* 인스턴스 타입과 수량 (ex. g2.c8m96 1대) :
-   g2.c8m96 : 8 Core, Memory 96 GB + GPU 1개
-   g2.c16m192 : 16 Core, Memory 192 GB + GPU 2개
+* Type and Volume of Instance (e.g. 1 g2.c8m96 instance):
+   g2.c8m96: 8 Core, Memory 96 GB + 1 GPU
+   g2.c16m192 : 16 Core, Memory 192 GB + 2 GPUs
 
-* 설치할 인스턴스에서 사용할 키페어 이름 (ex. gpu_connect_key) :
-   원하는 키 페어가 없는 경우 생성해 주세요.
+* Name of Keypair for the Instance to Install (e.g. gpu_connect_key):
+   Create one, if there is no keypair you need.
 
-* 인스턴스의 블럭스토리지 타입과 크기(GB) (ex. HDD 100 GB) :
-   블럭스토리지 타입 : SSD와 HDD중 선택가능합니다.
-   블럭스토리지 크기는 20 GB ~ 1000GB 로 생성가능합니다.
+* Block Storage Type and Volume of Instance (GB) (e.g. HDD 100 GB):
+   Block Storage Type: Select either SSD or HDD.
+   Volume can be created between 20 GB and 1000 GB.
 
-* 연결되어야할 Subnet 정보 (ex. Default Network / 7245176d-1402-47fa-87a6-2c2eafe8807b) 
-  네트워크 이름 / ID / 복수개 가능
+* Information of Subnet to be Connected with  (e.g. Default Network / 7245176d-1402-47fa-87a6-2c2eafe8807b)
+  Network Name/ID/Multiple number is available
 
 =============================================================================
 
 
-GPU  인스턴스 사용을 위한 정보입니다.
+To enable GPU Instances, refer to the following information.   
 =============================================================================
-* 서비스는 바로 이용할 수 없고 사전 상담 후에 사용할 수 있습니다. 사전 상담은 2~3일 정도 걸릴 수 있습니다.
+* Service is not readily available but may be enabled after consultation. Consultation may take 2 to 3 days. 
 
-* GPU 인스턴스는 Ubuntu 18.04로 설치됩니다.
+* GPU instances are installed on Ubuntu 18.04. 
 
-* GPU 인스턴스 IP는 자동 할당됩니다.
+* The IP is automatically assigned. 
 
-* GPU 인스턴스가 생성이 완료되면 메일로 안내가 됩니다.
+* Once a GPU instance is created, it is guided by email. 
 
 =============================================================================
 ```
 
-* 고객 TOAST 아이디 email : GPU 인스턴스 생성요청 할 아이디정보를 입력합니다.
-* 고객 프로젝트 ID : 아래 그림처럼 **Network > VPC > 서브넷 > 프로젝트 ID** 에서 확인가능합니다.
-* 가용성 영역 : pub-a, pub-b 중 선택가능합니다.
-* 설치할 인스턴스의 이름 : 20자 이내로 작성해주세요. 영문자와 숫자, '-', '.'만 입력 가능합니다.
-* GPU 인스턴스 타입과 인스턴스 수
+* User's TOAST ID Email: Enter ID information to be requested for creating a GPU instance.  
+* User's Project ID: Available at **Network > VPC > Subnet > Project ID**, as below.
+* Availability Area: Select either pub-a or pub-b.  
+* Name of Instance to Install: Enter less than 20 characters: only English, numbers, '-', and '.' are available. 
+* Type of GPU Instance and Number of Instances 
 
-| 인스턴스 타입 | GPU 수 | Core 수 | 메모리 용량 (GB) |
+| Instance Type | GPU Count | Core Count | Memory Volume (GB) |
 | --- | --- | --- | --- |
 | g2.c8m96 | 1 | 8 | 96 |
 | g2.c16m192 | 2 | 16 | 192 |
 
-* 설치할 인스턴스에서 사용할 키페어 이름 : 원하는 키 페어가 없는 경우 생성해 주세요.
-* 인스턴스의 블럭스토리지 타입과 크기(GB) : 블럭스토리지 타입은 HDD와 SSD 중 선택가능하며 블럭스토리지 크기는 20 GB ~ 1000GB 로 생성가능합니다.
-* 연결되어야할 Subnet 정보 : 아래그림처럼 **Network > VPC > 서브넷 > 서브넷 이름, CIDR** 에서 확인가능합니다.
-* 인스턴스 생성에 대한 자세한 내용은 [Instance 개요](http://docs.toast.com/ko/Compute/Instance/ko/overview/)를 참고하시기 바랍니다.
+* Name of Key pair for Instance to Install: Create one, if there is no key pair you need. 
+* Block Storage Type and Volume of Instance (GB): Select either HDD or SSD for the type, and the volume can be created between 20 GB and 1000 GB. 
+* Information of Subnet to be Connected with: Go to **Network > VPC > Subnet > Subnet Name, CIDR** and find.
+* For more details regarding creating instances, see [Instance Overview](http://docs.toast.com/ko/Compute/Instance/ko/overview/).
 
 
-![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/en_GPU_Instance_subnetID_1.png)
+![en_GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/en_GPU_Instance_subnetID_1.png)
 
 
-**GPU 인스턴스 사용을 위한 정보**
+**Information for Enabling GPU Instances **
 
-* 서비스는 바로 이용할 수 없고 사전 상담 후에 사용할 수 있습니다. 사전 상담은 2~3일 정도 걸릴 수 있습니다.
+* Service is not readily available, but may be enabled after consultation. Consultation may take 2 to 3 days. 
 
-* GPU 인스턴스는 Ubuntu 18.04로 설치됩니다.
+* GPU instances are installed upon Ubuntu 18.04.
 
-* GPU 인스턴스 IP는 자동 할당됩니다.
+* The IP is automatically assigned. 
 
-* GPU 인스턴스가 생성이 완료되면 메일로 안내가 됩니다.
-
-
-## GPU Instance 접속
-
-인스턴스 생성 완료 후 SSH를 사용하여 인스턴스에 접근합니다.
-인스턴스에 Floating IP가 연결되어있어야 하며 보안그룹에서 TCP 포트 22(SSH)가 허용되어야 합니다.
-
-SSH 클라이언트와 설정한 키페어를 이용해 인스턴스에 접속 합니다. 
-SSH 연결에 대한 자세한 가이드는 [SSH 연결 가이드](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux)를 참고하시기 바랍니다.
+* Once a GPU instance is created, it is guided by email.  
 
 
+## Accessing GPU Instances 
 
-## GPU 정보 확인
+After instance is created, go to the instance by using SSH.  
+The instance must be associated with floating IP, while TCP port 22 (SSH) must be allowed by the security group. 
+
+Use SSH Client and configured key pair to access the instance. 
+For more details regarding SSH connection, see [Guide for SSH Connection](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux).
+
+
+
+## Finding GPU Information 
 
 ```
-# GPU 정보 확인
+# Find GPU Information
 shell > nvidia-smi
 ```
 
 ![GPU_assign_1.png](http://static.toastoven.net/prod_gpu/GPU_assign_1.png)
 
 
-* GPU : 0 (GPU 1개 할당)
-* Name : Tesla V100-SXM2 (GPU 모델)
-* Persistence_mode : On (Persistence mode enable 상태)
-* Temp : 30C (현재 GPU 온도)
-* Pwr Usage/Capacity : 36W / 300W (현재 전력사용량 / 최대 전력사용량)
-* Memory-Usage : 32480MiB (GPU 최대 할당 메모리)
-* GPU-Util : 0% (GPU Util 사용률)
+* GPU: 0 (1 GPU assigned)
+* Name: Tesla V100-SXM2 (GPU model)
+* Persistence_mode: On (the persistence mode is enabled)
+* Temp: 30 C (current GPU temperature)
+* Pwr Usage/Capacity: 36W / 300W (current electricity usage/ maximum capacity)
+* Memory-Usage: 32480MiB (maximum memory assigned to GPU)
+* GPU-Util: 0% (usage rate of GPU Util)
 
-## 일반 인스턴스와 GPU 인스턴스와 차이점
+## Differences between General and GPU Instances 
 
-* GPU 인스턴스는 사양 변경이 안됩니다.
+* For GPU instances, specifications cannot be changed.  
