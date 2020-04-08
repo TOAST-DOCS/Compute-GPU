@@ -6,11 +6,11 @@
 
 **选择服务 > 单击GPU Instance。**
 
-![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_1_modify.png)  
+![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_1_modify.png)  
 
 **单击确定激活服务按钮。**
 
-![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_activation_2_modify.png)
+![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_2_modify.png)
 
 
 
@@ -18,12 +18,12 @@
 
 **移动至Compute > GPU Instance后，单击申请（1:1咨询）按钮。**
 
-![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_1_modify.png)
+![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_1_modify.png)
 
 
 **填写咨询标题和咨询内容后单击确定按钮。**
 
-![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/GPU_Instance_apply_2_modify.png)
+![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_2_modify.png)
 
 
 **申请创建GPU Instance时填写的内容**
@@ -89,7 +89,7 @@
 * 创建实例相关详细内容请参考[Instance概要](http://docs.toast.com/ko/Compute/Instance/ko/overview/)。
 
 
-![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/GPU_Instance_subnetID_1.png)
+![GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/en_GPU_Instance_subnetID_1.png)
 
 
 **用于使用GPU实例的信息**
