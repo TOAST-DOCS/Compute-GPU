@@ -1,7 +1,6 @@
 
 ## Compute > GPU Instance > Console User Guide
 
-
 ## Enabling GPU Instances  
 
 To enable a GPU instance, you must request for creating one from Compute > GPU Instance.
@@ -16,7 +15,7 @@ To enable a GPU instance, you must request for creating one from Compute > GPU I
 
 
 
-## Request for Creating GPU Instances 
+## Request for Creating GPU Instances
 
 **Go to Compute > GPU Instance, and click Apply (1:1 Inquiries).**
 
@@ -63,13 +62,13 @@ Enter relevant information to enable GPU.
 
 To enable GPU Instances, refer to the following information.   
 =============================================================================
-* Service is not readily available but may be enabled after consultation. Consultation may take 2 to 3 days. 
+* Service is not readily available but may be enabled after consultation. Consultation may take 2 to 3 days.
 
-* GPU instances are installed on Ubuntu 18.04. 
+* GPU instances are installed on Ubuntu 18.04.
 
-* The IP is automatically assigned. 
+* The IP is automatically assigned.
 
-* Once a GPU instance is created, it is guided by email. 
+* Once a GPU instance is created, it is guided by email.
 
 =============================================================================
 ```
@@ -77,16 +76,16 @@ To enable GPU Instances, refer to the following information.
 * User's TOAST ID Email: Enter ID information to be requested for creating a GPU instance.  
 * User's Project ID: Available at **Network > VPC > Subnet > Project ID**, as below.
 * Availability Area: Select either pub-a or pub-b.  
-* Name of Instance to Install: Enter less than 20 characters: only English, numbers, '-', and '.' are available. 
-* Type of GPU Instance and Number of Instances 
+* Name of Instance to Install: Enter less than 20 characters: only English, numbers, '-', and '.' are available.
+* Type of GPU Instance and Number of Instances
 
 | Instance Type | GPU Count | Core Count | Memory Volume (GB) |
 | --- | --- | --- | --- |
 | g2.c8m96 | 1 | 8 | 96 |
 | g2.c16m192 | 2 | 16 | 192 |
 
-* Name of Key pair for Instance to Install: Create one, if there is no key pair you need. 
-* Block Storage Type and Volume of Instance (GB): Select either HDD or SSD for the type, and the volume can be created between 20 GB and 1000 GB. 
+* Name of Key pair for Instance to Install: Create one, if there is no key pair you need.
+* Block Storage Type and Volume of Instance (GB): Select either HDD or SSD for the type, and the volume can be created between 20 GB and 1000 GB.
 * Information of Subnet to be Connected with: Go to **Network > VPC > Subnet > Subnet Name, CIDR** and find.
 * For more details regarding creating instances, see [Instance Overview](http://docs.toast.com/ko/Compute/Instance/ko/overview/).
 
@@ -96,26 +95,26 @@ To enable GPU Instances, refer to the following information.
 
 **Information for Enabling GPU Instances **
 
-* Service is not readily available, but may be enabled after consultation. Consultation may take 2 to 3 days. 
+* Service is not readily available, but may be enabled after consultation. Consultation may take 2 to 3 days.
 
 * GPU instances are installed upon Ubuntu 18.04.
 
-* The IP is automatically assigned. 
+* The IP is automatically assigned.
 
 * Once a GPU instance is created, it is guided by email.  
 
 
-## Accessing GPU Instances 
+## Accessing GPU Instances
 
 After instance is created, go to the instance by using SSH.  
-The instance must be associated with floating IP, while TCP port 22 (SSH) must be allowed by the security group. 
+The instance must be associated with floating IP, while TCP port 22 (SSH) must be allowed by the security group.
 
-Use SSH Client and configured key pair to access the instance. 
+Use SSH Client and configured key pair to access the instance.
 For more details regarding SSH connection, see [Guide for SSH Connection](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux).
 
 
 
-## Finding GPU Information 
+## Finding GPU Information
 
 ```
 # Find GPU Information
@@ -133,6 +132,6 @@ shell > nvidia-smi
 * Memory-Usage: 32480MiB (maximum memory assigned to GPU)
 * GPU-Util: 0% (usage rate of GPU Util)
 
-## Differences between General and GPU Instances 
+## Differences between General and GPU Instances
 
 * For GPU instances, specifications cannot be changed.  
