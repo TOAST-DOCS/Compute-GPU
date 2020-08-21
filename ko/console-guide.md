@@ -67,9 +67,6 @@ SSH 클라이언트와 설정한 키페어를 이용해 인스턴스에 접속 �
 SSH 연결에 대한 자세한 가이드는 [SSH 연결 가이드](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux)를 참고하시기 바랍니다.
 
 
-![GPU_active_3.png](http://static.toastoven.net/prod_gpu/ko_GPU_active_3.png)
-[그림6]
-
 ## GPU 정보 확인
 
 **인스턴스에 접속해서 nvidia-smi 명령어 실행후 GPU정보를 확인합니다.**
@@ -80,7 +77,7 @@ shell > nvidia-smi
 ```
 
 ![GPU_active_3.png](http://static.toastoven.net/prod_gpu/nvidia-smi_stress2_1_70.png)
-[그림7]
+[그림6]
 
 1. 버전 정보
   * NVIDIA Driver Version : 440.33.01
