@@ -80,21 +80,21 @@ shell > nvidia-smi
 [그림6]
 
 1. 버전 정보
-  * NVIDIA Driver Version : 440.33.01
-  * CUDA Version : 10.2
+    * NVIDIA Driver Version : 440.33.01
+    * CUDA Version : 10.2
 2. GPU 정보
-  * 사용가능한 GPU 수 : GPU 0~7 (8개 사용)
-  * GPU 모델명 : Tesla V100-SXM2
-  * Persistence mode 상태 : Persistence_mode On
-  * GPU 현재 온도 : Temp 52C
-  * 현재 전력사용량 / 최대 전력사용량 : Pwr Usage/Capacity 298W / 300W
-  * 현재 메모리 사용량 / 최대 메모리 사용량 : Memory-Usage 29283MiB / 32480MiB
-  * GPU Utilization : GPU-util 100%
+    * 사용가능한 GPU 수 : GPU 0~7 (8개 사용)
+    * GPU 모델명 : Tesla V100-SXM2
+    * Persistence mode 상태 : Persistence_mode On
+    * GPU 현재 온도 : Temp 52C
+    * 현재 전력사용량 / 최대 전력사용량 : Pwr Usage/Capacity 298W / 300W
+    * 현재 메모리 사용량 / 최대 메모리 사용량 : Memory-Usage 29283MiB / 32480MiB
+    * GPU Utilization : GPU-util 100%
 3. Processes 정보
-  * GPU별 PID, Process name, GPU Memory Usage 정보
-  * Type 정보
-    * C = compute = CUDA or OpenCL
-    * G = graphics = DirectX or OpenGL
+    * GPU별 PID, Process name, GPU Memory Usage 정보
+    * Type 정보
+      * C = compute = CUDA or OpenCL
+      * G = graphics = DirectX or OpenGL
 
 ## 일반 인스턴스와 GPU 인스턴스와 차이점
 

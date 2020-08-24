@@ -38,7 +38,7 @@ GPU 인스턴스는 인스턴스에 GPU(Graphics Processing Unit)가 추가 구�
 ### NVIDIA T4
 
 | NVIDIA  T4                               |                             |
-| ---------------------------------------- | --------------------------- |
+| ---------------------------------------- | :---------------------------: |
 | GPU Architecture                         | NVIDIA Turing               |
 | NVIDIA Tensor Cores                      | 320                         |
 | NVIDIA CUDA Cores                        | 2560                        |
