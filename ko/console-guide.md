@@ -93,8 +93,24 @@ shell > nvidia-smi
 3. Processes 정보
     * GPU별 PID, Process name, GPU Memory Usage 정보
     * Type 정보
-      * C = compute = CUDA or OpenCL
-      * G = graphics = DirectX or OpenGL
+        * C = compute = CUDA or OpenCL
+        * G = graphics = DirectX or OpenGL
+
+**nvcc명령어로 CUDA 버전을 확인합니다.**
+
+```
+# CUDA 버전 정보 확인
+/usr/local/cuda/bin/nvcc  --version
+
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2020 NVIDIA Corporation
+Built on Thu_Jun_11_22:26:38_PDT_2020
+Cuda compilation tools, release 11.0, V11.0.194
+Build cuda_11.0_bu.TC445_37.28540450_0
+```
+
+
+
 
 ## 일반 인스턴스와 GPU 인스턴스와 차이점
 
