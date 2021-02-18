@@ -69,9 +69,9 @@ SSH 연결에 대한 자세한 가이드는 [Linux 인스턴스 접속 방법](h
 
 **Windows GPU Instance 접속 방법**
 
-Windows 서버에 접속하려면, TOAST 콘솔에서 접속하려는 Windows 인스턴스를 선택합니다. 인스턴스 상세 화면의 인스턴스 접속(Instance 접속) 탭에서 비밀번호 확인 버튼을 클릭하여 Windows 서버에 설정된 비밀번호를 확인합니다.
+Windows 서버에 접속하려면, NHN Cloud 콘솔에서 접속하려는 Windows 인스턴스를 선택합니다. 인스턴스 상세 화면의 인스턴스 접속(Instance 접속) 탭에서 비밀번호 확인 버튼을 클릭하여 Windows 서버에 설정된 비밀번호를 확인합니다.
 
-비밀번호 확인 옆의 연결 버튼을 클릭해 원격 데스크톱 접속 설정이 저장된 .rdp 파일을 받아서 실행하면 Windows 서버에 접속합니다. Windows 서버의 ID는 Administrator이며, 비밀번호는 TOAST 콘솔에서 확인한 비밀번호를 이용합니다.
+비밀번호 확인 옆의 연결 버튼을 클릭해 원격 데스크톱 접속 설정이 저장된 .rdp 파일을 받아서 실행하면 Windows 서버에 접속합니다. Windows 서버의 ID는 Administrator이며, 비밀번호는 NHN Cloud 콘솔에서 확인한 비밀번호를 이용합니다.
 
 RDP 연결에 대한 자세한 가이드는 [Windows 인스턴스 접속 방법](https://docs.toast.com/ko/Compute/Instance/ko/overview/#windows)을 참고하시기 바랍니다.
 
