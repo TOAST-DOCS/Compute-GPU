@@ -31,7 +31,7 @@ To enable a GPU instance, you must request for creating one from Compute > GPU I
 ```
 Enter relevant information to enable GPU.  
 =============================================================================
-* User's TOAST ID Email (e.g. email@toast.com):
+* User's Toast ID Email (e.g. email@toast.com):
 
 * User's Project ID (e.g. ae1bfd024d8841a295988638d90979a4):
    Available at Network > VPC > Subnet > Project ID.
@@ -72,7 +72,7 @@ To enable GPU Instances, refer to the following information.
 =============================================================================
 ```
 
-* User's TOAST ID Email: Enter ID information to be requested for creating a GPU instance.  
+* User's Toast ID Email: Enter ID information to be requested for creating a GPU instance.  
 * User's Project ID: Available at **Network > VPC > Subnet > Project ID**, as below.
 * Availability Area: Select either pub-a or pub-b.  
 * Name of Instance to Install: Enter less than 20 characters: only English, numbers, '-', and '.' are available. 
