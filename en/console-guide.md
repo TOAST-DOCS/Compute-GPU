@@ -1,136 +1,127 @@
 ## Compute > GPU Instance > Console User Guide
 
-## Enabling GPU Instances  
+## Enabling GPU Instance
 
-To enable a GPU instance, you must request for creating one from Compute > GPU Instance.
+To enable GPU Instance, you need to go to Compute > GPU Instance and request creation of the instance first.
 
 **Click Select Service > GPU Instance.**
 
-![en_GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_1_modify.png)  
+![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C1.jpg)  
+[그림1]
 
-**Click OK for Enable Service.**
+**Click the Confirm button in the Service Activation popup.**
 
-![en_GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_activation_2_modify.png)
-
-
-
-## Request for Creating GPU Instances 
-
-**Go to Compute > GPU Instance, and click Apply (1:1 Inquiries).**
-
-![en_GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_1_modify.png)
-
-
-**Fill out the title and content of your inquiry and click OK.**
-
-![en_GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/en_GPU_Instance_apply_2_modify.png)
-
-
-**Requirements for the Request for Creating GPU Instances **
-
-```
-Enter relevant information to enable GPU.  
-=============================================================================
-* User's NHN Cloud ID Email (e.g. email@toast.com):
-
-* User's Project ID (e.g. ae1bfd024d8841a295988638d90979a4):
-   Available at Network > VPC > Subnet > Project ID.
-
-* Availability Area (e.g. pub-a):
-  Select either pub-a or pub-b.
-
-* Name of Instance to Install (e.g. gpu-instance-001):
-  Enter less than 20 characters: only English, numbers, '-', and '.' are available.
-
-* Type and Volume of Instance (e.g. 1 g2.c8m96 instance):
-   g2.c8m96: 8 Core, Memory 96 GB + 1 GPU
-   g2.c16m192 : 16 Core, Memory 192 GB + 2 GPUs
-
-* Name of Keypair for the Instance to Install (e.g. gpu_connect_key):
-   Create one, if there is no keypair you need.
-
-* Block Storage Type and Volume of Instance (GB) (e.g. HDD 100 GB):
-   Block Storage Type: Select either SSD or HDD.
-   Volume can be created between 20 GB and 1000 GB.
-
-* Information of Subnet to be Connected with  (e.g. Default Network / 7245176d-1402-47fa-87a6-2c2eafe8807b)
-  Network Name/ID/Multiple number is available
-
-=============================================================================
-
-
-To enable GPU Instances, refer to the following information.   
-=============================================================================
-* Service is not readily available but may be enabled after consultation. Consultation may take 2 to 3 days. 
-
-* GPU instances are installed on Ubuntu 18.04. 
-
-* The IP is automatically assigned. 
-
-* Once a GPU instance is created, it is guided by email. 
-
-=============================================================================
-```
-
-* User's NHN Cloud ID Email: Enter ID information to be requested for creating a GPU instance.  
-* User's Project ID: Available at **Network > VPC > Subnet > Project ID**, as below.
-* Availability Area: Select either pub-a or pub-b.  
-* Name of Instance to Install: Enter less than 20 characters: only English, numbers, '-', and '.' are available. 
-* Type of GPU Instance and Number of Instances 
-
-| Instance Type | GPU Count | Core Count | Memory Volume (GB) |
-| --- | --- | --- | --- |
-| g2.c8m96 | 1 | 8 | 96 |
-| g2.c16m192 | 2 | 16 | 192 |
-
-* Name of Key pair for Instance to Install: Create one, if there is no key pair you need. 
-* Block Storage Type and Volume of Instance (GB): Select either HDD or SSD for the type, and the volume can be created between 20 GB and 1000 GB. 
-* Information of Subnet to be Connected with: Go to **Network > VPC > Subnet > Subnet Name, CIDR** and find.
-* For more details regarding creating instances, see [Instance Overview](http://docs.toast.com/ko/Compute/Instance/ko/overview/).
-
-
-![en_GPU_Instance_subnetID_1](http://static.toastoven.net/prod_gpu/en_GPU_Instance_subnetID_1.png)
-
-
-**Information for Enabling GPU Instances **
-
-* Service is not readily available, but may be enabled after consultation. Consultation may take 2 to 3 days. 
-
-* GPU instances are installed upon Ubuntu 18.04.
-
-* The IP is automatically assigned. 
-
-* Once a GPU instance is created, it is guided by email.  
-
-
-## Accessing GPU Instances 
-
-After instance is created, go to the instance by using SSH.  
-The instance must be associated with floating IP, while TCP port 22 (SSH) must be allowed by the security group. 
-
-Use SSH Client and configured key pair to access the instance. 
-For more details regarding SSH connection, see [Guide for SSH Connection](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux).
+![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C2.jpg)
+[Figure 2]
 
 
 
-## Finding GPU Information 
+## Requesting GPU Instance creation
+
+**Go to Compute > GPU Instance and click the Create button in the Create GPU Instance popup.**
+
+![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C3.jpg)
+[Figure 3]
+
+**Check the OS image information to create a GPU Instance.**
+
+![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C4.jpg)
+[Figure 4]
+
+**Select the instance type to create.**
+![GPU_Instance_apply_3_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C5.jpg)
+[Figure 5]
+
+**The rest of the process is the same as creating general Instances.**
+
+For more information on creating instances, see [Instance Overview](http://docs.toast.com/ko/Compute/Instance/ko/overview/).
+
+
+## GPU Instance Information
+
+**GPU Instance Specifications per Type**
+
+| Instance Type   | GPU model | GPU   | GPU memory | vCPU  | Memory |
+| --------------- | :--------: | -----: | ----------: | -----: | ------: |
+| g2.v100.c8m90   | V100     | 1   | 32 GB      | 8   | 90 GB  |
+| g2.v100.c16m180 | V100     | 2   | 64 GB      | 16  | 180 GB |
+| g2.v100.c32m360 | V100     | 4   | 128 GB     | 32  | 360 GB |
+| g2.v100.c64m720 | V100     | 8   | 256 GB     | 64  | 720 GB |
+| g2.t4.c4m32     | T4       | 1   | 16 GB      | 4   | 32 GB  |
+| g2.t4.c8m64     | T4       | 2   | 32 GB      | 8   | 64 GB  |
+| g2.t4.c16m128   | T4       | 4   | 64 GB      | 16  | 128 GB |
+| g2.t4.c32m256   | T4       | 8   | 128 GB     | 32  | 256 GB |
+| g2.t4.c64m384   | T4       | 12  | 192 GB     | 64  | 384 GB |
+
+
+
+## How to Access GPU Instance
+
+**Once the instance is created, access the instance using the credential.**
+
+**How to access Linux GPU Instance**
+
+After creating the instance, access it using SSH.
+The instance must have a Floating IP connected and TCP port 22 (SSH) allowed for the security group.
+Access the instance using the SSH client and the configured key pair.
+
+For more information on connecting to SSH, see [How to Access Linux Instance](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux).
+
+**How to Access Windows GPU Instance**
+
+To access a Windows server, select a Windows instance to access from the NHN Cloud console. Click the Confirm Password button on the Access Instance tab of Instance Details to confirm the password configured in the Windows server.
+
+Click the Connect button next to Confirm Password to download the .rdp file containing the configurations for accessing remote desktop and run it to access the Windows server. The ID of the Windows server is Administrator and the password is the one checked by the NHN Cloud console.
+
+For more information on connecting to RDP, see [How to Access Windows Instance](https://docs.toast.com/ko/Compute/Instance/ko/overview/#windows).
+
+## Checking GPU Information
+
+**Access the instance, execute the nvidia-smi command, and check the GPU information.**
 
 ```
-# Find GPU Information
-shell > nvidia-smi
+# Checking GPU Information
+(Linux) shell > nvidia-smi
+(Windows) cmd > C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe
 ```
 
-![GPU_assign_1.png](http://static.toastoven.net/prod_gpu/GPU_assign_1.png)
+![GPU_active_3.png](http://static.toastoven.net/prod_gpu/nvidia-smi_stress2_1_70.png)
+[Figure 6]
+
+1. Version Information
+    * NVIDIA Driver Version : 440.33.01
+    * CUDA Version : 10.2
+2. GPU Information
+    * Number of Available GPUs: GPU 0-7, (using 8)
+    * GPU Model Name: Tesla V100-SXM2
+    * Persistence Mode Status: Persistence_mode On
+    * GPU Temperature: Temp 52C
+    * Power Usage/Capacity: Pwr Usage/Capacity 298 W/300 W
+    * Memory Usage/Capacity: Memory-Usage 29,283 MiB/32,480 MiB
+    * GPU Utilization : GPU-util 100%
+3. Processes Information
+    * PID per GPU, Process Name, GPU Memory Usage Information
+    * Type Information
+        * C = compute = CUDA or OpenCL
+        * G = graphics = DirectX or OpenGL
+
+**Check CUDA version with nvcc command.**
+
+```
+# Checking CUDA version
+/usr/local/cuda/bin/nvcc  --version
+
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2020 NVIDIA Corporation
+Built on Thu_Jun_11_22:26:38_PDT_2020
+Cuda compilation tools, release 11.0, V11.0.194
+Build cuda_11.0_bu.TC445_37.28540450_0
+```
 
 
-* GPU: 0 (1 GPU assigned)
-* Name: Tesla V100-SXM2 (GPU model)
-* Persistence_mode: On (the persistence mode is enabled)
-* Temp: 30 C (current GPU temperature)
-* Pwr Usage/Capacity: 36W / 300W (current electricity usage/ maximum capacity)
-* Memory-Usage: 32480MiB (maximum memory assigned to GPU)
-* GPU-Util: 0% (usage rate of GPU Util)
 
-## Differences between General and GPU Instances 
 
-* For GPU instances, specifications cannot be changed.  
+## Difference between Normal Instances and GPU Instances
+
+* The specifications of GPU Instance cannot be changed.
+* The NVIDIA and CUDA versions are updated without any announcement.
