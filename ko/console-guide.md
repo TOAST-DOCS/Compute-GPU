@@ -13,7 +13,7 @@ GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성�
 
 ![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C2.jpg)
 [그림2]
-****
+
 
 
 ## GPU Instance 생성 요청
