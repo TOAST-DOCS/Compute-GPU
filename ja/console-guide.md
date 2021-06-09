@@ -6,12 +6,12 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 
 **サービス選択 > GPU Instanceをクリックします。**
 
-![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C1.jpg)  
+![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C1.jpg)  
 [図1]
 
 **サービス有効化確認ボタンを押します。**
 
-![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C2.jpg)
+![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C2.jpg)
 [図2]
 
 
@@ -20,21 +20,21 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 
 **Compute > GPU Instanceに移動した後、GPU Instance作成ボタンを押します。**
 
-![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C3.jpg)
+![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C3.jpg)
 [図3]
 
 **GPU Instance作成するOSイメージ情報を確認します。**
 
-![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C4.jpg)
+![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C4.jpg)
 [図4]
 
 **作成するインスタンスのタイプを選択します。**
-![GPU_Instance_apply_3_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C5.jpg)
+![GPU_Instance_apply_3_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C5.jpg)
 [図5]
 
 **後の進行は一般Instance作成プロセスと同じです。**
 
-インスタンス作成の詳細な内容は[Instance概要](http://docs.toast.com/ko/Compute/Instance/ko/overview/)を参照してください。
+インスタンス作成の詳細な内容は[Instance概要](https://docs.toast.com/en/Compute/Instance/en/overview/)を参照してください。
 
 
 ## GPUインスタンス情報
@@ -64,7 +64,7 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 インスタンスにFloating IPが接続されていて、セキュリティグループでTCPポート22(SSH)が許可されている必要があります。
 SSHクライアントと、設定したキーペアを利用して、インスタンスに接続します。
 
-SSH接続の詳細は、[SSH接続ガイド](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux)を参照してください。
+SSH接続の詳細は、[SSH接続ガイド](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances)を参照してください。
 
 
 ## GPU情報の確認

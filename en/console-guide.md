@@ -6,12 +6,12 @@ To enable GPU Instance, you need to go to Compute > GPU Instance and request cre
 
 **Click Select Service > GPU Instance.**
 
-![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C1.jpg)  
+![GPU_Instance_activation_1_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C1.jpg)  
 [그림1]
 
 **Click the Confirm button in the Service Activation popup.**
 
-![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C2.jpg)
+![GPU_Instance_activation_2_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C2.jpg)
 [Figure 2]
 
 
@@ -20,21 +20,21 @@ To enable GPU Instance, you need to go to Compute > GPU Instance and request cre
 
 **Go to Compute > GPU Instance and click the Create button in the Create GPU Instance popup.**
 
-![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C3.jpg)
+![GPU_Instance_apply_1_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C3.jpg)
 [Figure 3]
 
 **Check the OS image information to create a GPU Instance.**
 
-![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C4.jpg)
+![GPU_Instance_apply_2_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C4.jpg)
 [Figure 4]
 
 **Select the instance type to create.**
-![GPU_Instance_apply_3_modify.png](http://static.toastoven.net/prod_gpu/ko_TG_C5.jpg)
+![GPU_Instance_apply_3_modify.png](http://static.toastoven.net/prod_gpu/en_TG_C5.jpg)
 [Figure 5]
 
 **The rest of the process is the same as creating general Instances.**
 
-For more information on creating instances, see [Instance Overview](http://docs.toast.com/ko/Compute/Instance/ko/overview/).
+For more information on creating instances, see [Instance Overview](https://docs.toast.com/en/Compute/Instance/en/overview/).
 
 
 ## GPU Instance Information
@@ -65,7 +65,7 @@ After creating the instance, access it using SSH.
 The instance must have a Floating IP connected and TCP port 22 (SSH) allowed for the security group.
 Access the instance using the SSH client and the configured key pair.
 
-For more information on connecting to SSH, see [How to Access Linux Instance](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux).
+For more information on connecting to SSH, see [How to Access Linux Instance](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances).
 
 **How to Access Windows GPU Instance**
 
@@ -73,7 +73,7 @@ To access a Windows server, select a Windows instance to access from the NHN Clo
 
 Click the Connect button next to Confirm Password to download the .rdp file containing the configurations for accessing remote desktop and run it to access the Windows server. The ID of the Windows server is Administrator and the password is the one checked by the NHN Cloud console.
 
-For more information on connecting to RDP, see [How to Access Windows Instance](https://docs.toast.com/ko/Compute/Instance/ko/overview/#windows).
+For more information on connecting to RDP, see [How to Access Windows Instance](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-windows-instances).
 
 ## Checking GPU Information
 
