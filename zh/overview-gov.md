@@ -1,22 +1,21 @@
+## Compute > GPU Instance > Overview
 
-## Compute > GPU Instance > 概要
+GPU instance is a virtual server, in which the Graphics Processing Unit (GPU) is additionally configured to the instance. 
+It is broadly applied from scientific discovery to deep learning. 
 
-GPU实例是向实例添加GPU(Graphics Processing Unit)构成的虚拟服务器。
-应用于从科学发现到深度学习的各种领域。
+ You may enable GPU by selecting 1 or 2 GPUs. 
 
-GPU数量可选择1个或2个使用GPU。
+## Features 
 
-## 功能
+* AI Training 
+* AI Inference 
+* High Performance Computing 
 
-* AI训练
-* AI推论
-* 高性能计算机运算
+## GPU Specifications  
 
-## 提供GPU数据
-  
-### NVLINK用NVIDIA TESLA V100
+### NVIDIA TESLA V100 for NVLINK
 
-面向深度学习的终极性能
+Ultimate Performance for Deep Learning 
 
 | Tesla V100 for NVLink |  |
 | --- | :---: |
