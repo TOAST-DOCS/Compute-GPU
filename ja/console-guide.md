@@ -1,6 +1,10 @@
-## Compute > GPU Instance > コンソール使用ガイド
+<!-- pre-align:aligned sig=ec96cf33fe4f -->
 
-## GPU Instanceの有効化
+<a id="compute-gpu-instance-console-user-guide"></a>
+## Compute > GPU Instance > コンソール使用ガイド { #compute-gpu-instance-console-user-guide }
+
+<a id="enabling-gpu-instance"></a>
+## GPU Instanceの有効化 { #enabling-gpu-instance }
 
 GPU Instanceを使用するには、先にCompute > GPU Instance作成をリクエストする必要があります。
 
@@ -16,7 +20,8 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 
 
 
-## GPU Instance作成リクエスト
+<a id="requesting-gpu-instance-creation"></a>
+## GPU Instance作成リクエスト { #requesting-gpu-instance-creation }
 
 **Compute > GPU Instanceに移動した後、GPU Instance作成ボタンを押します。**
 
@@ -37,7 +42,8 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 インスタンス作成の詳細な内容は[Instance概要](https://docs.toast.com/en/Compute/Instance/en/overview/)を参照してください。
 
 
-## GPUインスタンス情報
+<a id="gpu-instance-information"></a>
+## GPUインスタンス情報 { #gpu-instance-information }
 
 **GPUインスタンスタイプ別の仕様**
 
@@ -55,7 +61,8 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 
 
 
-## GPU Instance接続
+<a id="how-to-access-gpu-instance"></a>
+## GPU Instance接続 { #how-to-access-gpu-instance }
 
 **インスタンスの作成が完了したら接続情報通りに接続します。**
 
@@ -67,7 +74,8 @@ SSHクライアントと、設定したキーペアを利用して、インス�
 SSH接続の詳細は、[SSH接続ガイド](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances)を参照してください。
 
 
-## GPU情報の確認
+<a id="checking-gpu-information"></a>
+## GPU情報の確認 { #checking-gpu-information }
 
 **インスタンスに接続してnvidia-smiコマンドを実行し、GPU情報を確認します。**
 
@@ -112,7 +120,8 @@ Build cuda_11.0_bu.TC445_37.28540450_0
 
 
 
-## 一般インスタンスとGPUインスタンスの違い
+<a id="difference-between-normal-instances-and-gpu-instances"></a>
+## 一般インスタンスとGPUインスタンスの違い { #difference-between-normal-instances-and-gpu-instances }
 
 * GPUインスタンスは仕様を変更できません。
 * NVIDIAとCUDAのバージョンは予告なしにアップデートされます。
