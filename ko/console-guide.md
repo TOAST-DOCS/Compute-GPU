@@ -1,6 +1,10 @@
-## Compute > GPU Instance > 콘솔 사용 가이드
+<!-- pre-align:aligned sig=ec96cf33fe4f -->
 
-## GPU Instance 활성화
+<a id="compute-gpu-instance-console-user-guide"></a>
+## Compute > GPU Instance > 콘솔 사용 가이드 { #compute-gpu-instance-console-user-guide }
+
+<a id="enabling-gpu-instance"></a>
+## GPU Instance 활성화 { #enabling-gpu-instance }
 
 GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성요청을 해야 합니다.
 
@@ -16,7 +20,8 @@ GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성�
 
 
 
-## GPU Instance 생성 요청
+<a id="requesting-gpu-instance-creation"></a>
+## GPU Instance 생성 요청 { #requesting-gpu-instance-creation }
 
 **Compute > GPU Instance 으로 이동한 뒤, GPU Instance 생성 버튼을 클릭합니다.**
 
@@ -37,7 +42,8 @@ GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성�
 인스턴스 생성에 대한 자세한 내용은 [Instance 개요](http://docs.toast.com/ko/Compute/Instance/ko/overview/)를 참고하시기 바랍니다
 
 
-## GPU 인스턴스 정보
+<a id="gpu-instance-information"></a>
+## GPU 인스턴스 정보 { #gpu-instance-information }
 
 **GPU 인스턴스 타입별 사양**
 
@@ -55,7 +61,8 @@ GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성�
 
 
 
-## GPU Instance 접속 방법
+<a id="how-to-access-gpu-instance"></a>
+## GPU Instance 접속 방법 { #how-to-access-gpu-instance }
 
 **인스턴스 생성이 완료되었다면 접속정보대로 접속합니다.**
 
@@ -75,7 +82,8 @@ Windows 서버에 접속하려면, NHN Cloud 콘솔에서 접속하려는 Window
 
 RDP 연결에 대한 자세한 가이드는 [Windows 인스턴스 접속 방법](https://docs.toast.com/ko/Compute/Instance/ko/overview/#windows)을 참고하시기 바랍니다.
 
-## GPU 정보 확인
+<a id="checking-gpu-information"></a>
+## GPU 정보 확인 { #checking-gpu-information }
 
 **인스턴스에 접속해서 nvidia-smi 명령어 실행후 GPU정보를 확인합니다.**
 
@@ -121,7 +129,8 @@ Build cuda_11.0_bu.TC445_37.28540450_0
 
 
 
-## 일반 인스턴스와 GPU 인스턴스와 차이점
+<a id="difference-between-normal-instances-and-gpu-instances"></a>
+## 일반 인스턴스와 GPU 인스턴스와 차이점 { #difference-between-normal-instances-and-gpu-instances }
 
 * GPU 인스턴스는 사양 변경을 할수 없습니다.
 * NVIDIA와 CUDA의 버전은 별도 공지없이 업데이트됩니다.

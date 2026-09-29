@@ -1,19 +1,25 @@
-## Compute > GPU Instance > Overview
+<!-- pre-align:aligned sig=9c5d54a66370 -->
+
+<a id="compute-gpu-instance-overview"></a>
+## Compute > GPU Instance > Overview { #compute-gpu-instance-overview }
 
 GPU instance is a virtual server, in which the Graphics Processing Unit (GPU) is additionally configured to the instance. 
 It is broadly applied from scientific discovery to deep learning. 
 
  You may enable GPU by selecting 1 or 2 GPUs. 
 
-## Features 
+<a id="features"></a>
+## Features { #features }
 
 * AI Training 
 * AI Inference 
 * High Performance Computing 
 
-## GPU Specifications  
+<a id="gpu-specifications"></a>
+## GPU Specifications { #gpu-specifications }
 
-### NVIDIA TESLA V100 for NVLINK
+<a id="nvidia-tesla-v100-for-nvlink"></a>
+### NVIDIA TESLA V100 for NVLINK { #nvidia-tesla-v100-for-nvlink }
 
 Ultimate Performance for Deep Learning 
 
@@ -34,3 +40,8 @@ Ultimate Performance for Deep Learning
 | Max Power Comsumption | 300 WATTS |
 | Thermal Solution | Passive |
 | Compute APIs | CUDA, DirectCompute, OpenCL ™ ,OpenACC |
+<a id="gpu-specifications-1"></a>
+### NVIDIA T4 { #gpu-specifications-1 }
+
+<!-- TODO: translate body -->
+

@@ -1,6 +1,10 @@
-## Compute > GPU Instance > Console User Guide
+<!-- pre-align:aligned sig=ec96cf33fe4f -->
 
-## Enabling GPU Instance
+<a id="compute-gpu-instance-console-user-guide"></a>
+## Compute > GPU Instance > Console User Guide { #compute-gpu-instance-console-user-guide }
+
+<a id="enabling-gpu-instance"></a>
+## Enabling GPU Instance { #enabling-gpu-instance }
 
 To enable GPU Instance, you need to go to Compute > GPU Instance and request creation of the instance first.
 
@@ -16,7 +20,8 @@ To enable GPU Instance, you need to go to Compute > GPU Instance and request cre
 
 
 
-## Requesting GPU Instance creation
+<a id="requesting-gpu-instance-creation"></a>
+## Requesting GPU Instance creation { #requesting-gpu-instance-creation }
 
 **Go to Compute > GPU Instance and click the Create button in the Create GPU Instance popup.**
 
@@ -37,7 +42,8 @@ To enable GPU Instance, you need to go to Compute > GPU Instance and request cre
 For more information on creating instances, see [Instance Overview](https://docs.toast.com/en/Compute/Instance/en/overview/).
 
 
-## GPU Instance Information
+<a id="gpu-instance-information"></a>
+## GPU Instance Information { #gpu-instance-information }
 
 **GPU Instance Specifications per Type**
 
@@ -55,7 +61,8 @@ For more information on creating instances, see [Instance Overview](https://docs
 
 
 
-## How to Access GPU Instance
+<a id="how-to-access-gpu-instance"></a>
+## How to Access GPU Instance { #how-to-access-gpu-instance }
 
 **Once the instance is created, access the instance using the credential.**
 
@@ -75,7 +82,8 @@ Click the Connect button next to Confirm Password to download the .rdp file cont
 
 For more information on connecting to RDP, see [How to Access Windows Instance](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-windows-instances).
 
-## Checking GPU Information
+<a id="checking-gpu-information"></a>
+## Checking GPU Information { #checking-gpu-information }
 
 **Access the instance, execute the nvidia-smi command, and check the GPU information.**
 
@@ -121,7 +129,8 @@ Build cuda_11.0_bu.TC445_37.28540450_0
 
 
 
-## Difference between Normal Instances and GPU Instances
+<a id="difference-between-normal-instances-and-gpu-instances"></a>
+## Difference between Normal Instances and GPU Instances { #difference-between-normal-instances-and-gpu-instances }
 
 * The specifications of GPU Instance cannot be changed.
 * The NVIDIA and CUDA versions are updated without any announcement.

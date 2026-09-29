@@ -1,19 +1,25 @@
-## Compute > GPU Instance > 概要
+<!-- pre-align:aligned sig=9c5d54a66370 -->
+
+<a id="compute-gpu-instance-overview"></a>
+## Compute > GPU Instance > 概要 { #compute-gpu-instance-overview }
 
 GPUインスタンスはインスタンスにGPU(Graphics Processing Unit)が追加構成された仮想サーバーです。
 科学的な発見からディープラーニングに至るまで、多様な分野で使用します。
 
 GPU数1個または2個を選択してGPUを使用できます。
 
-## 機能
+<a id="features"></a>
+## 機能 { #features }
 
 * AIトレーニング
 * AI推論
 * 高性能コンピューティング
 
-## 提供GPUの仕様
+<a id="gpu-specifications"></a>
+## 提供GPUの仕様 { #gpu-specifications }
 
-### NVIDIA V100
+<a id="nvidia-tesla-v100-for-nvlink"></a>
+### NVIDIA V100 { #nvidia-tesla-v100-for-nvlink }
 
 | NVIDIA V100 for NVLink | |
 | ----------------------------- | :----------------------------------: |
@@ -31,7 +37,8 @@ GPU数1個または2個を選択してGPUを使用できます。
 | Compute APIs                  | CUDA, DirectCompute, OpenCL, OpenACC |
 
 
-### NVIDIA T4
+<a id="gpu-specifications-1"></a>
+### NVIDIA T4 { #gpu-specifications-1 }
 
 | NVIDIA  T4                               |                             |
 | ---------------------------------------- | :---------------------------: |
