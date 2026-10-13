@@ -34,7 +34,7 @@ GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성�
 
 **이후 진행은 일반 Instance 생성과정과 동일합니다.**
 
-인스턴스 생성에 대한 자세한 내용은 [Instance 개요](http://docs.toast.com/ko/Compute/Instance/ko/overview/)를 참고하시기 바랍니다
+인스턴스 생성에 대한 자세한 내용은 [Instance 개요](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/)를 참고하시기 바랍니다
 
 
 ## GPU 인스턴스 정보
@@ -65,7 +65,7 @@ GPU Instance를 사용하기 위해서는 먼저 Compute > GPU Instance 생성�
 인스턴스에 Floating IP가 연결되어있어야 하며 보안그룹에서 TCP 포트 22(SSH)가 허용되어야 합니다.
 SSH 클라이언트와 설정한 키페어를 이용해 인스턴스에 접속 합니다.
 
-SSH 연결에 대한 자세한 가이드는 [Linux 인스턴스 접속 방법](https://docs.toast.com/ko/Compute/Instance/ko/overview/#linux)를 참고하시기 바랍니다.
+SSH 연결에 대한 자세한 가이드는 [Linux 인스턴스 접속 방법](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/#linux)를 참고하시기 바랍니다.
 
 **Windows GPU Instance 접속 방법**
 
@@ -73,7 +73,7 @@ Windows 서버에 접속하려면, NHN Cloud 콘솔에서 접속하려는 Window
 
 비밀번호 확인 옆의 연결 버튼을 클릭해 원격 데스크톱 접속 설정이 저장된 .rdp 파일을 받아서 실행하면 Windows 서버에 접속합니다. Windows 서버의 ID는 Administrator이며, 비밀번호는 NHN Cloud 콘솔에서 확인한 비밀번호를 이용합니다.
 
-RDP 연결에 대한 자세한 가이드는 [Windows 인스턴스 접속 방법](https://docs.toast.com/ko/Compute/Instance/ko/overview/#windows)을 참고하시기 바랍니다.
+RDP 연결에 대한 자세한 가이드는 [Windows 인스턴스 접속 방법](https://docs.nhncloud.com/ko/Compute/Instance/ko/overview/#windows)을 참고하시기 바랍니다.
 
 ## GPU 정보 확인
 

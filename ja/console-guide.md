@@ -34,7 +34,7 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 
 **後の進行は一般Instance作成プロセスと同じです。**
 
-インスタンス作成の詳細な内容は[Instance概要](https://docs.toast.com/en/Compute/Instance/en/overview/)を参照してください。
+インスタンス作成の詳細な内容は[Instance概要](https://docs.nhncloud.com/en/Compute/Instance/en/overview/)を参照してください。
 
 
 ## GPUインスタンス情報
@@ -64,7 +64,7 @@ GPU Instanceを使用するには、先にCompute > GPU Instance作成をリク�
 インスタンスにFloating IPが接続されていて、セキュリティグループでTCPポート22(SSH)が許可されている必要があります。
 SSHクライアントと、設定したキーペアを利用して、インスタンスに接続します。
 
-SSH接続の詳細は、[SSH接続ガイド](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances)を参照してください。
+SSH接続の詳細は、[SSH接続ガイド](https://docs.nhncloud.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances)を参照してください。
 
 
 ## GPU情報の確認

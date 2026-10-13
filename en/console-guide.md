@@ -34,7 +34,7 @@ To enable GPU Instance, you need to go to Compute > GPU Instance and request cre
 
 **The rest of the process is the same as creating general Instances.**
 
-For more information on creating instances, see [Instance Overview](https://docs.toast.com/en/Compute/Instance/en/overview/).
+For more information on creating instances, see [Instance Overview](https://docs.nhncloud.com/en/Compute/Instance/en/overview/).
 
 
 ## GPU Instance Information
@@ -65,7 +65,7 @@ After creating the instance, access it using SSH.
 The instance must have a Floating IP connected and TCP port 22 (SSH) allowed for the security group.
 Access the instance using the SSH client and the configured key pair.
 
-For more information on connecting to SSH, see [How to Access Linux Instance](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances).
+For more information on connecting to SSH, see [How to Access Linux Instance](https://docs.nhncloud.com/en/Compute/Instance/en/overview/#how-to-access-linux-instances).
 
 **How to Access Windows GPU Instance**
 
@@ -73,7 +73,7 @@ To access a Windows server, select a Windows instance to access from the NHN Clo
 
 Click the Connect button next to Confirm Password to download the .rdp file containing the configurations for accessing remote desktop and run it to access the Windows server. The ID of the Windows server is Administrator and the password is the one checked by the NHN Cloud console.
 
-For more information on connecting to RDP, see [How to Access Windows Instance](https://docs.toast.com/en/Compute/Instance/en/overview/#how-to-access-windows-instances).
+For more information on connecting to RDP, see [How to Access Windows Instance](https://docs.nhncloud.com/en/Compute/Instance/en/overview/#how-to-access-windows-instances).
 
 ## Checking GPU Information
 
